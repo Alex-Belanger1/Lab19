@@ -1,0 +1,218 @@
+{
+  "ticker": "NVDA",
+  "company_name": "NVIDIA CORP",
+  "cik": "0001045810",
+  "units": "USD millions",
+  "rows": [
+    {
+      "fiscal_year_end": "2022-01-30",
+      "revenue": 26914000000,
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "net_income": 9752000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 9108000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": "not found",
+      "capital_spending_tag": "not found",
+      "equity": 26612000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 17575000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": 5268000000,
+      "research_and_development_tag": "ResearchAndDevelopmentExpense",
+      "roe": 0.3664512250112731,
+      "owner_earnings": "not found"
+    },
+    {
+      "fiscal_year_end": "2023-01-29",
+      "revenue": "not found",
+      "revenue_tag": "not found",
+      "net_income": 4368000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 5641000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": "not found",
+      "capital_spending_tag": "not found",
+      "equity": 22101000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 19081000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": 7339000000,
+      "research_and_development_tag": "ResearchAndDevelopmentExpense",
+      "roe": 0.19763811592235644,
+      "owner_earnings": "not found"
+    },
+    {
+      "fiscal_year_end": "2024-01-28",
+      "revenue": "not found",
+      "revenue_tag": "not found",
+      "net_income": 29760000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 28090000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": "not found",
+      "capital_spending_tag": "not found",
+      "equity": 42978000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 22750000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": 8675000000,
+      "research_and_development_tag": "ResearchAndDevelopmentExpense",
+      "roe": 0.6924472986178976,
+      "owner_earnings": "not found"
+    },
+    {
+      "fiscal_year_end": "2025-01-26",
+      "revenue": "not found",
+      "revenue_tag": "not found",
+      "net_income": 72880000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 64089000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": "not found",
+      "capital_spending_tag": "not found",
+      "equity": 79327000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 32274000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": 12914000000,
+      "research_and_development_tag": "ResearchAndDevelopmentExpense",
+      "roe": 0.9187288060811577,
+      "owner_earnings": "not found"
+    },
+    {
+      "fiscal_year_end": "2026-01-25",
+      "revenue": "not found",
+      "revenue_tag": "not found",
+      "net_income": 120067000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 102718000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": "not found",
+      "capital_spending_tag": "not found",
+      "equity": 157293000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 49510000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": 18497000000,
+      "research_and_development_tag": "ResearchAndDevelopmentExpense",
+      "roe": 0.7633333969089534,
+      "owner_earnings": "not found"
+    }
+  ],
+  "checks": [
+    {
+      "check": "ROE of 15% or more every year",
+      "outcome": "pass"
+    },
+    {
+      "check": "Owner earnings positive every year",
+      "outcome": "not known"
+    },
+    {
+      "check": "Owner earnings grew, first year to last",
+      "outcome": "not known"
+    }
+  ],
+  "panel_checks": {
+    "Buffett": [
+      {
+        "check": "ROE of 15% or more every year",
+        "outcome": "pass"
+      },
+      {
+        "check": "Owner earnings positive every year",
+        "outcome": "not known"
+      },
+      {
+        "check": "Owner earnings grew, first year to last",
+        "outcome": "not known"
+      }
+    ],
+    "Cathie Wood": [
+      {
+        "check": "Revenue grew 15% or more a year, first year to last",
+        "outcome": "not known"
+      },
+      {
+        "check": "R&D 5% or more of revenue, latest year",
+        "outcome": "not known"
+      }
+    ],
+    "Burry": [
+      {
+        "check": "Operating cash flow at least net income every year",
+        "outcome": "fail"
+      },
+      {
+        "check": "Liabilities no more than twice equity, latest year",
+        "outcome": "pass"
+      }
+    ]
+  },
+  "derived_metrics": {
+    "revenue_growth_annual": "not known",
+    "rd_to_revenue": "not known",
+    "liabilities_to_equity": 0.3147628947251308
+  },
+  "printed_numbers": [
+    "102,718",
+    "102718",
+    "12,914",
+    "120,067",
+    "120067",
+    "12914",
+    "157,293",
+    "157293",
+    "17,575",
+    "17575",
+    "18,497",
+    "18497",
+    "19,081",
+    "19.8",
+    "19081",
+    "22,101",
+    "22,750",
+    "22101",
+    "22750",
+    "26,612",
+    "26,914",
+    "26612",
+    "26914",
+    "28,090",
+    "28090",
+    "29,760",
+    "29760",
+    "31.5",
+    "32,274",
+    "32274",
+    "36.6",
+    "4,368",
+    "42,978",
+    "42978",
+    "4368",
+    "49,510",
+    "49510",
+    "5,268",
+    "5,641",
+    "5268",
+    "5641",
+    "64,089",
+    "64089",
+    "69.2",
+    "7,339",
+    "72,880",
+    "72880",
+    "7339",
+    "76.3",
+    "79,327",
+    "79327",
+    "8,675",
+    "8675",
+    "9,108",
+    "9,752",
+    "91.9",
+    "9108",
+    "9752"
+  ]
+}

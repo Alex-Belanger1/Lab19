@@ -1,0 +1,239 @@
+{
+  "ticker": "COST",
+  "company_name": "COSTCO WHOLESALE CORP /NEW",
+  "cik": "0000909832",
+  "units": "USD millions",
+  "rows": [
+    {
+      "fiscal_year_end": "2022-08-28",
+      "revenue": 226954000000,
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "net_income": 5844000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 7392000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": 3891000000,
+      "capital_spending_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "equity": 20642000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 43519000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": "not found",
+      "research_and_development_tag": "not found",
+      "roe": 0.2831121015405484,
+      "owner_earnings": 3501000000
+    },
+    {
+      "fiscal_year_end": "2023-09-03",
+      "revenue": 242290000000,
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "net_income": 6292000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 11068000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": 4323000000,
+      "capital_spending_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "equity": 25058000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 43936000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": "not found",
+      "research_and_development_tag": "not found",
+      "roe": 0.2510974539069359,
+      "owner_earnings": 6745000000
+    },
+    {
+      "fiscal_year_end": "2024-09-01",
+      "revenue": 254453000000,
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "net_income": 7367000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 11339000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": 4710000000,
+      "capital_spending_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "equity": 23622000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 46209000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": "not found",
+      "research_and_development_tag": "not found",
+      "roe": 0.3118702904072475,
+      "owner_earnings": 6629000000
+    },
+    {
+      "fiscal_year_end": "2025-08-31",
+      "revenue": 275235000000,
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "net_income": 8099000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 13335000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": 5498000000,
+      "capital_spending_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "equity": 29164000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 47935000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": "not found",
+      "research_and_development_tag": "not found",
+      "roe": 0.27770539020710466,
+      "owner_earnings": 7837000000
+    },
+    {
+      "fiscal_year_end": "2026-08-30",
+      "revenue": 303154000000,
+      "revenue_tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "net_income": 9226000000,
+      "net_income_tag": "NetIncomeLoss",
+      "operating_cash_flow": 15817000000,
+      "operating_cash_flow_tag": "NetCashProvidedByUsedInOperatingActivities",
+      "capital_spending": 6435000000,
+      "capital_spending_tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+      "equity": 35803000000,
+      "equity_tag": "StockholdersEquity",
+      "liabilities": 53242000000,
+      "liabilities_tag": "Liabilities",
+      "research_and_development": "not found",
+      "research_and_development_tag": "not found",
+      "roe": 0.25768790324833113,
+      "owner_earnings": 9382000000
+    }
+  ],
+  "checks": [
+    {
+      "check": "ROE of 15% or more every year",
+      "outcome": "pass"
+    },
+    {
+      "check": "Owner earnings positive every year",
+      "outcome": "pass"
+    },
+    {
+      "check": "Owner earnings grew, first year to last",
+      "outcome": "pass"
+    }
+  ],
+  "panel_checks": {
+    "Buffett": [
+      {
+        "check": "ROE of 15% or more every year",
+        "outcome": "pass"
+      },
+      {
+        "check": "Owner earnings positive every year",
+        "outcome": "pass"
+      },
+      {
+        "check": "Owner earnings grew, first year to last",
+        "outcome": "pass"
+      }
+    ],
+    "Cathie Wood": [
+      {
+        "check": "Revenue grew 15% or more a year, first year to last",
+        "outcome": "fail"
+      },
+      {
+        "check": "R&D 5% or more of revenue, latest year",
+        "outcome": "not known"
+      }
+    ],
+    "Burry": [
+      {
+        "check": "Operating cash flow at least net income every year",
+        "outcome": "pass"
+      },
+      {
+        "check": "Liabilities no more than twice equity, latest year",
+        "outcome": "pass"
+      }
+    ]
+  },
+  "derived_metrics": {
+    "revenue_growth_annual": 0.07505668815961197,
+    "rd_to_revenue": "not known",
+    "liabilities_to_equity": 1.4870820880931765
+  },
+  "printed_numbers": [
+    "11,068",
+    "11,339",
+    "11068",
+    "11339",
+    "13,335",
+    "13335",
+    "148.7",
+    "15",
+    "15,817",
+    "15817",
+    "20,642",
+    "20642",
+    "226,954",
+    "226954",
+    "23,622",
+    "23622",
+    "242,290",
+    "242290",
+    "25,058",
+    "25.1",
+    "25.8",
+    "25058",
+    "254,453",
+    "254453",
+    "27.8",
+    "275,235",
+    "275235",
+    "28.3",
+    "29,164",
+    "29164",
+    "3,501",
+    "3,891",
+    "303,154",
+    "303154",
+    "31.2",
+    "35,803",
+    "3501",
+    "35803",
+    "3891",
+    "4,323",
+    "4,710",
+    "43,519",
+    "43,936",
+    "4323",
+    "43519",
+    "43936",
+    "46,209",
+    "46209",
+    "47,935",
+    "4710",
+    "47935",
+    "5",
+    "5,498",
+    "5,844",
+    "53,242",
+    "53242",
+    "5498",
+    "5844",
+    "6,292",
+    "6,435",
+    "6,629",
+    "6,745",
+    "6292",
+    "6435",
+    "6629",
+    "6745",
+    "7,367",
+    "7,392",
+    "7,837",
+    "7.5",
+    "7367",
+    "7392",
+    "7837",
+    "8,099",
+    "8099",
+    "9,226",
+    "9,382",
+    "9226",
+    "9382"
+  ]
+}
